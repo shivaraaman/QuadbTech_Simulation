@@ -4,37 +4,26 @@
 This project is a simple implementation of a **blockchain** using the Rust programming language. It includes **Proof of Work (PoW)**, mining, and block validation, demonstrating core blockchain concepts.
 
 ## Features
-- ✅ **Blockchain with Proof of Work (PoW)**
-- ✅ **Blocks with Index, Timestamp, Transactions, Hash, and Nonce**
-- ✅ **Mining Algorithm to Solve Hash Puzzle**
-- ✅ **Dynamic Block Creation & Validation**
+- Blockchain with Proof of Work (PoW)
+- Blocks with Index, Timestamp, Transactions, Hash, and Nonce
+- Mining Algorithm to Solve Hash Puzzle
+- Dynamic Block Creation & Validation
 
 ## Project Structure
 ```
 QuadbTech/
 ├── src/
-│   ├── main.rs          # Entry point
+│   ├── main.rs         
 │   ├── blockchain/
 │   │   ├── mod.rs       # Module definition
-│   │   ├── block.rs     # Block structure and PoW logic
-│   │   ├── chain.rs     # Blockchain structure and validation
-│   ├── utils/
-│   │   ├── hash.rs      # Hashing function
-│   │   ├── difficulty.rs # Difficulty adjustment (if needed)
-├── Cargo.toml           # Dependencies and metadata
-├── README.md            # Project documentation
+│   │   ├── block.rs     # it defines block structure and PoW logic
+│   │   ├── chain.rs     # it defines blockchain structure and validation
+├── Cargo.toml           # contains Dependencies 
 ```
-
-## Dependencies
-This project uses the following Rust crates:
-```toml
-[dependencies]
-sha2 = "0.10"      # For hashing blocks (SHA-256)
-serde = { version = "1.0", features = ["derive"] } # For serialization
-serde_json = "1.0" # For JSON encoding
-```
-
 ## How It Works
+
+![image](https://github.com/user-attachments/assets/732ce4a4-b192-409e-9395-3d220ab5e781)
+
 ### 1. Creating a Block
 Each block contains:
 - **Index**: Position in the blockchain.
@@ -82,16 +71,8 @@ cargo build
 ```sh
 cargo run
 ```
-
-## Future Enhancements 🚀
-- ⏳ **Dynamic Difficulty Adjustment**
-- 🛠 **Network P2P Integration**
-- 💰 **Implement Transactions with Signatures**
-- 🔄 **Switch to Proof of Stake (PoS) Experimentally**
-
-## Conclusion
-This project provides a **fundamental understanding** of blockchain technology, mining, and PoW. It's a great starting point for learning about decentralized systems in Rust!
-
+## Summary 
+This project provides a understanding of blockchain technology, mining, and PoW. And I have used Rust language which is best in its safety and performance.
 ---
 📌 **Author:** Sivaraaman | 🌐 **Project for QuadBTech Internship**
 
