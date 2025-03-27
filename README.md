@@ -57,8 +57,8 @@ The `is_valid()` method ensures:
 ## Running the Project
 1️⃣ **Clone the repository**
 ```sh
-git clone https://github.com/yourusername/quadbtech-blockchain.git
-cd quadbtech-blockchain
+git clone https://github.com/shivaraaman/QuadbTech_Simulation.git
+cd QuadbTech_Simulation
 ```
 
 2️⃣ **Build the project**
