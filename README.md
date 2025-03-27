@@ -1,7 +1,6 @@
 # Simple Blockchain in Rust
 
-## Introduction
-This project is a simple implementation of a **blockchain** using the Rust programming language. It includes **Proof of Work (PoW)**, mining, and block validation, demonstrating core blockchain concepts.
+I have implemented a blockchain-based transaction system using Rust, integrating SHA-256 for hashing and a Proof of Work (PoW) consensus mechanism. The project includes block creation, mining with nonce validation, and blockchain integrity verification. I used Rust libraries like sha2, serde, and serde_json for cryptographic functions and data serialization. The system starts with a genesis block, allows adding new transactions, and ensures security through hash chaining. A flowchart is included to illustrate the working process from initialization to mining and validation.
 
 ## Features
 - Blockchain with Proof of Work (PoW)
