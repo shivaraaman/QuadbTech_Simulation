@@ -74,5 +74,4 @@ cargo run
 ## Summary 
 This project provides a understanding of blockchain technology, mining, and PoW. And I have used Rust language which is best in its safety and performance.
 ---
-📌 **Author:** Sivaraaman | 🌐 **Project for QuadBTech Internship**
-
+📌 **Author:** Sivaraaman 
