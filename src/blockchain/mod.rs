@@ -1,2 +1,2 @@
-pub mod block;
-pub mod chain;
+pub mod block; //linking block module
+pub mod chain; //linking chain module

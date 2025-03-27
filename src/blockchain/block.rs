@@ -13,7 +13,7 @@ pub struct Block {
 }
 
 impl Block {
-    // Function to create a new block
+    //it create new block with index, transactions, previous_hash and difficulty
     pub fn new(index: u64, transactions: Vec<String>, previous_hash: String, difficulty: usize) -> Self {
         let timestamp = SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_millis();
         let mut block = Block {
@@ -28,7 +28,7 @@ impl Block {
         block
     }
 
-    // Function to calculate hash
+    //function to calculate hash
     pub fn calculate_hash(&self) -> String {
         let data = format!(
             "{}{}{:?}{}{}",
@@ -40,7 +40,7 @@ impl Block {
     }
     
 
-    // Proof-of-Work: Mine the block
+    //proof of work function
     pub fn mine_block(&mut self, difficulty: usize) {
         loop {
             self.hash = self.calculate_hash();
